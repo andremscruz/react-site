@@ -1,24 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.h3, .h4{
+    margin: 0;
+}
+.h3{
+    margin-right: auto;
+    font-size: 22px;
+    color: rgba(0, 216, 255, 1);
+}
+h4{
+    color: rgba(222, 235, 248, 1);
+}
 .app-logo{
-    width: 110px;
-    padding-top: 5px;
+    height: 30px;
+    margin-right: 7px;
 }
 .nav{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid rgba(33, 34, 42, 1);
     background-color: rgba(33, 34, 42, 1);
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-bottom: 25px;
+    height: 90px;
+    padding: 30px 25px;
 }
-.h4{
-    position: fixed;
-    right: 0;
-    padding-right: 50px;
-    font-size: 30px;
-    color: rgba(222, 235, 248, 1);
-}
-.h3{
-    font-size: 50px;
-    color: rgba(0, 216, 255, 1);
-}
+

@@ -1,5 +1,6 @@
 .container{
-    font-size: 60px;
+    margin: 0;
+    padding: 57px 27px;
     background-color: rgba(40, 45, 53, 1);
     color: rgba(255, 255, 255, 1);
     height: 100vh;
@@ -8,14 +9,19 @@
     background-position: right;
 }
 .list{
-    margin-left: 120px;
+    margin-top: 46px;
+    max-width: 400px;
     /*list-style: none;*/
 }
 .h1{
-    margin: 20px;
+    margin: 0px;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+
 }
 .list > li{
-    padding-block: 30px;
+    line-height: 19px;
+    padding-block: 10px;
 }
 /*.list > li::before{
     content: "\2022";
@@ -28,6 +34,6 @@
 }*/
 
 .list > li::marker{
-    font-size: 5rem;
+    font-size: 1.4rem;
     color: rgba(0, 216, 255, 1);;
 }
