@@ -1,5 +1,4 @@
 .container{
-    padding-left: 30px;
     margin: 0;
     background-color: rgba(40, 45, 53, 1);
     color: rgba(255, 255, 255, 1);
@@ -8,8 +7,10 @@
     background-repeat: no-repeat;
     background-position: right;
 }
-.list{
+.div{
     padding-left: 30px;
+}
+.list{
     margin-top: 46px;
     max-width: 400px;
     /*list-style: none;*/

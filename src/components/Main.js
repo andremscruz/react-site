@@ -3,7 +3,7 @@ import "../Main.css"
 
 function Main(){
     return(
-        <div>
+        <div className="div">
             <h1 className="h1">Fun facts about React</h1>
             <ul className="list">
                 <li>Was first released in 2013</li>
