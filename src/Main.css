@@ -3,22 +3,31 @@
     background-color: rgba(40, 45, 53, 1);
     color: rgba(255, 255, 255, 1);
     height: 100vh;
+    background-image: url(./logo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .list{
     margin-left: 120px;
-    list-style: none;
+    /*list-style: none;*/
 }
 .h1{
     margin: 20px;
 }
 .list > li{
-    padding: 10px;
+    padding-block: 30px;
 }
-.list > li::before{
+/*.list > li::before{
     content: "\2022";
     color: rgba(0, 216, 255, 1);
     font-weight: bold;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+    font-size: 6rem;
+}*/
+
+.list > li::marker{
+    font-size: 5rem;
+    color: rgba(0, 216, 255, 1);;
 }

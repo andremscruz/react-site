@@ -1,11 +1,15 @@
 .app-logo{
     width: 110px;
+    padding-top: 5px;
 }
 .nav{
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(33, 34, 42, 1);
     background-color: rgba(33, 34, 42, 1);
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 25px;
 }
 .h4{
     position: fixed;
