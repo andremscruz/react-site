@@ -8,11 +8,13 @@
     background-position: right;
 }
 .list{
+    padding-left: 30px;
     margin-top: 46px;
     max-width: 400px;
     /*list-style: none;*/
 }
 .h1{
+    padding-left: 30px;
     margin: 0px;
     font-size: 39px;
     letter-spacing: -0.05em;
