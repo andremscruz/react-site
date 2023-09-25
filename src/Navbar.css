@@ -1,0 +1,20 @@
+.app-logo{
+    width: 110px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(33, 34, 42, 1);
+    background-color: rgba(33, 34, 42, 1);
+}
+.h4{
+    position: fixed;
+    right: 0;
+    padding-right: 50px;
+    font-size: 30px;
+    color: rgba(222, 235, 248, 1);
+}
+.h3{
+    font-size: 50px;
+    color: rgba(0, 216, 255, 1);
+}
