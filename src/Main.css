@@ -1,43 +1,53 @@
-.container{
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-    background-color: rgba(40, 45, 53, 1);
-    color: rgba(255, 255, 255, 1);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    background-image: url(./logo.svg);
+}
+main {
+    padding: 57px 27px;
+    background-image: url("./images/react-icon-light.png"); 
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right center;
+    flex: 1 1 auto;
+    background-color: white;
+    color: #2B283A;
 }
-.div{
-    padding-left: 30px;
+
+main.dark {
+    background-image: url("./images/react-icon-dark.png"); 
+    background-color: #282D35;
+    color: white;    
 }
-.list{
-    margin-top: 46px;
-    max-width: 400px;
-    /*list-style: none;*/
-}
-.h1{
-    padding-top: 30px;
-    padding-left: 30px;
-    margin: 0px;
+
+.main--title {
+    margin: 0;
     font-size: 39px;
     letter-spacing: -0.05em;
-
 }
-.list > li{
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
     line-height: 19px;
     padding-block: 10px;
 }
-/*.list > li::before{
-    content: "\2022";
-    color: rgba(0, 216, 255, 1);
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-    font-size: 6rem;
-}*/
 
-.list > li::marker{
+.main--facts > li::marker {
     font-size: 1.4rem;
-    color: rgba(0, 216, 255, 1);;
+    color: #61DAFB;
 }

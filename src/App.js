@@ -1,17 +1,18 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
-import Footer from "./components/Footer";
-
 
 function App() {
+  const [darkMode, setDarkMode] = React.useState(true)
+  
+  function handleClick(){
+      setDarkMode(prevState => !prevState)
+  }
   return (
-    <div className="container">
-      <Navbar />
-      <Main /> 
-      <Footer />
-    </div>
-     
+      <div className="container">
+          <Navbar darkMode = {darkMode} toggleDarkMode = {handleClick}/>
+          <Main darkMode = {darkMode}/>
+      </div>
   )
 }
 
